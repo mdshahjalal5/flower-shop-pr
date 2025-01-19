@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/*w: adding font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*w: shared styles*/
+.df {
+  display: flex;
+}
+.dg {
+  display: grid;
+}
+.jcc {
+  justify-content: center;
+}
+.aic {
+  align-items: center;
+}
+.tac {
+  text-align: center;
+}
+.btn-primary {
+  color: white;
+  background: #e55473;
+  border-radius: 0.5rem;
+  padding: 1.25rem 2.85rem;
+  font-weight: 700;
+  border: none;
+  font-size: 1.5rem;
+}
+.dark-1 {
+  color: #272727;
+}
+.light-gray {
+  color: rgba(218, 130, 11);
+}
+/*w: banner design  */
+body > section {
+  background-color: rgba(229, 84, 115, 0.1);
+  gap: 4.2rem;
+  justify-content: space-around;
+  border: 15px solid greenyellow;
+}
+.banner {
+  max-width: 44.25rem;
+}
+.banner-title {
+  font-weight: 900;
+  font-size: 5rem;
+  color: maroon;
+}
+
+.banner-img {
+  max-width: 635px;
+  max-height: 800px;
+}
